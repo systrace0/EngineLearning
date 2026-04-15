@@ -8,6 +8,10 @@ CMakeFiles/
 cmake_install.cmake
 Makefile
 
+# presets
+CMakeUserPresets.json
+compile_commands.json
+
 # Compiled shaders — these are build artifacts, never commit them
 shaders/compiled/
 
