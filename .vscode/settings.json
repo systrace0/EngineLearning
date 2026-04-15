@@ -1,0 +1,15 @@
+{
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/build/local",
+        "--background-index",
+        "--clang-tidy",
+        "--header-insertion=never",
+        "--completion-style=detailed"
+    ],
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "cmake.configureOnOpen": false
+}

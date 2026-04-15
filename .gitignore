@@ -19,10 +19,12 @@ shaders/compiled/
 vcpkg_installed/
 
 # IDE
-.vscode/
+.vscode/*
+!.vscode/settings.json
 .idea/
 *.xcodeproj/
 *.xcworkspace/
+.cache/
 
 # macOS
 .DS_Store
