@@ -1,0 +1,32 @@
+# Build output
+build/
+out/
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Compiled shaders — these are build artifacts, never commit them
+shaders/compiled/
+
+# vcpkg
+vcpkg_installed/
+
+# IDE
+.vscode/
+.idea/
+*.xcodeproj/
+*.xcworkspace/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Compiled objects and binaries
+*.o
+*.a
+*.dylib
+*.exe
+*.spv
